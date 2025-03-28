@@ -2,7 +2,7 @@ name: Workflow with Event Activity Types
 on: 
   pull_request:
     types:
-      -closed
+      - closed
 jobs:
   first-job:
     runs-on: ubuntu-latest
